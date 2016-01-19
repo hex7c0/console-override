@@ -1,10 +1,10 @@
 # [console-override](https://github.com/hex7c0/console-override)
 
-[![NPM version](https://img.shields.io/npm/v/console-log-override.svg)](https://www.npmjs.com/package/console-log-override)
-[![Linux Status](https://img.shields.io/travis/hex7c0/console-log-override.svg?label=linux)](https://travis-ci.org/hex7c0/console-log-override)
-[![Windows Status](https://img.shields.io/appveyor/ci/hex7c0/console-log-override.svg?label=windows)](https://ci.appveyor.com/project/hex7c0/console-log-override)
-[![Dependency Status](https://img.shields.io/david/hex7c0/console-log-override.svg)](https://david-dm.org/hex7c0/console-log-override)
-[![Coveralls](https://img.shields.io/coveralls/hex7c0/console-log-override.svg)](https://coveralls.io/r/hex7c0/console-log-override)
+[![NPM version](https://img.shields.io/npm/v/console-override.svg)](https://www.npmjs.com/package/console-override)
+[![Linux Status](https://img.shields.io/travis/hex7c0/console-override.svg?label=linux)](https://travis-ci.org/hex7c0/console-override)
+[![Windows Status](https://img.shields.io/appveyor/ci/hex7c0/console-override.svg?label=windows)](https://ci.appveyor.com/project/hex7c0/console-override)
+[![Dependency Status](https://img.shields.io/david/hex7c0/console-override.svg)](https://david-dm.org/hex7c0/console-override)
+[![Coveralls](https://img.shields.io/coveralls/hex7c0/console-override.svg)](https://coveralls.io/r/hex7c0/console-override)
 
 Override `console` methods with `Date.toISOString` before text
 
