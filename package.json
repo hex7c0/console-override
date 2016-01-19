@@ -1,0 +1,42 @@
+{
+  "version": "0.0.1",
+  "name": "console-override",
+  "description": "override console methods",
+  "keywords": [
+    "console",
+    "log",
+    "console.log"
+  ],
+  "preferGlobal": false,
+  "homepage": "http://supergiovane.tk/#/console-override",
+  "author": {
+    "name": "hex7c0",
+    "email": "hex7c0@gmail.com",
+    "url": "http://hex7c0.tk/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hex7c0/console-override.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hex7c0/console-override/issues",
+    "email": "hex7c0@gmail.com"
+  },
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coveralls": "~2.11",
+    "istanbul": "~0.4",
+    "mocha": "~2.3"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --bail --check-leaks",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly"
+  },
+  "license": "GPL-3.0"
+}
