@@ -10,11 +10,6 @@
  */
 
 /*
- * initialize module
- */
-var _date = new Date();
-
-/*
  * functions
  */
 /**
@@ -29,7 +24,7 @@ function log() {
   var _console = console.log;
   return function(args) {
 
-    return _console(_date.toISOString(), args);
+    return _console(new Date().toISOString(), args);
   };
 }
 module.exports.log = log;
@@ -46,7 +41,7 @@ function info() {
   var _console = console.info;
   return function(args) {
 
-    return _console(_date.toISOString(), args);
+    return _console(new Date().toISOString(), args);
   };
 }
 module.exports.info = info;
@@ -63,7 +58,7 @@ function warn() {
   var _console = console.warn;
   return function(args) {
 
-    return _console(_date.toISOString(), args);
+    return _console(new Date().toISOString(), args);
   };
 }
 module.exports.warn = warn;
@@ -80,7 +75,7 @@ function error() {
   var _console = console.error;
   return function(args) {
 
-    return _console(_date.toISOString(), args);
+    return _console(new Date().toISOString(), args);
   };
 }
 module.exports.error = error;
