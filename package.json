@@ -8,11 +8,11 @@
     "console.log"
   ],
   "preferGlobal": false,
-  "homepage": "http://supergiovane.tk/#/console-override",
+  "homepage": "https://github.com/hex7c0/console-override",
   "author": {
     "name": "hex7c0",
     "email": "hex7c0@gmail.com",
-    "url": "http://hex7c0.tk/"
+    "url": "https://hex7c0.github.io/"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "coveralls": "~2.11",
     "istanbul": "~0.4",
-    "mocha": "~2.3"
+    "mocha": "~3.0"
   },
   "engines": {
     "node": ">=0.10"
