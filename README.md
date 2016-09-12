@@ -6,7 +6,7 @@
 [![Dependency Status](https://img.shields.io/david/hex7c0/console-override.svg)](https://david-dm.org/hex7c0/console-override)
 [![Coveralls](https://img.shields.io/coveralls/hex7c0/console-override.svg)](https://coveralls.io/r/hex7c0/console-override)
 
-Override `console` methods with `Date.toISOString` before text
+Override `console` methods with `Date.toISOString` before text (monkey patching)
 
 ## Installation
 
