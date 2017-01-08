@@ -2,10 +2,9 @@
 /**
  * @file console-override main
  * @module console-override
- * @subpackage main
- * @version 0.0.1
+ * @version 0.2.0
  * @author hex7c0 <hex7c0@gmail.com>
- * @copyright hex7c0 2015
+ * @copyright hex7c0 2017
  * @license GPLv3
  */
 
